@@ -1,0 +1,4 @@
+[
+  { "Timestamp": "2023-10-01T14:00:00", "CPU": 45, "Memory": 60, "ActiveJobs": 8 },
+  { "Timestamp": "2023-10-01T15:00:00", "CPU": 85, "Memory": 90, "ActiveJobs": 15 }
+]

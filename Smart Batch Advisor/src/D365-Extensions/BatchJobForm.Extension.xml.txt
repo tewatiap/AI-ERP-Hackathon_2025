@@ -1,0 +1,5 @@
+<Form extensionOf="FormStr(BatchJob)">
+  <Design>
+    <Control id="TrafficLight" type="Button" label="Server Status" backgroundColor="Green" />
+  </Design>
+</Form>

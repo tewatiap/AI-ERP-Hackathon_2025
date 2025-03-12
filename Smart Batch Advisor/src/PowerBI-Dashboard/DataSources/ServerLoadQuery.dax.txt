@@ -1,0 +1,10 @@
+// ServerLoadQuery.dax
+ServerLoad =
+VAR RealTimeData = AzureMonitorAPI.GetMetrics()
+RETURN
+SUMMARIZE(
+    RealTimeData,
+    "CPU", RealTimeData[CPU],
+    "Memory", RealTimeData[Memory],
+    "ActiveJobs", RealTimeData[ActiveJobs]
+)
