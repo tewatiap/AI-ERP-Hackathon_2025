@@ -6,4 +6,4 @@ A Dynamics 365 F&O Hackathon project to optimize batch job scheduling.
 2. Import D365 extensions.
 3. Connect Power BI to mock data.
  
-[Full setup guide](Docs/Architecture.md)
+[Full setup guide]("Smart Batch Advisor\src\Docs\Architecture.md")

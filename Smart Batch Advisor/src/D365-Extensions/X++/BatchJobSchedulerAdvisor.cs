@@ -10,7 +10,7 @@ final class BatchJobSchedulerAdvisor_Extension
     private void displayLoadAlert()
     {
 var httpClient = new System.Net.Http.HttpClient();
-var response = httpClient.GetAsync("https://your-azure-function-url").Result;
+var response = httpClient.GetAsync("https://customer-azure-function-url").Result;
         var result = JsonConvert.DeserializeObject(response.Content.ReadAsStringAsync().Result);
  
 FormControl trafficLight = this.design().controlName("TrafficLight");
